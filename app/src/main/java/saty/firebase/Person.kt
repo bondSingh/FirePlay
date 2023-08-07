@@ -1,0 +1,13 @@
+package saty.firebase
+
+import org.intellij.lang.annotations.Language
+
+data class Person(
+    var name: String,
+    var age: Int,
+    var place: String,
+    var degree: String,
+    var language: String
+){
+    constructor() : this("" ,-1,"","","")
+}
