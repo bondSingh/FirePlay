@@ -10,4 +10,10 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+    <string name="name">Person name is %1$s</string>
+    <string name="age">Person age is %1$d</string>
+    <string name="place">He/She belongs to %1$s</string>
+    <string name="degree">He/She have %1$s degree</string>
+    <string name="language">He/She can speak %1$s language</string>
+
 </resources>
