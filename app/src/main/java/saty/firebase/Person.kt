@@ -1,6 +1,5 @@
 package saty.firebase
 
-import org.intellij.lang.annotations.Language
 
 data class Person(
     var name: String,

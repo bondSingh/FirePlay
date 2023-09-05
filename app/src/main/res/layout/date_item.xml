@@ -13,7 +13,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         android:gravity="center"
         app:layout_constraintTop_toTopOf="parent"
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="@color/primary_color"
         android:text="@android:string/untitled"
         android:maxLines="1"
         android:textSize="18sp"/>

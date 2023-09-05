@@ -36,7 +36,8 @@ class PersonAdapter(var persons: List<Person>, private val clickInterface: Perso
         when (holder) {
             is PersonViewHolder -> {
                 val person = persons[position - 1]
-                val res: Resources = Resources.getSystem()
+                val context = holder.itemView.context
+                val res: Resources = context.resources
 
                 holder.binding.name.text = res.getString(R.string.name, person.name)
                 holder.binding.age.text = res.getString(R.string.age, person.age)

@@ -1,5 +1,6 @@
 package saty.firebase
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.firestore.FirebaseFirestore
@@ -39,6 +40,10 @@ class MainActivity : AppCompatActivity() {
 
 
 
+        }
+
+        binding.goToAllPersons.setOnClickListener {
+            startActivity(Intent(this, AllPersons::class.java))
         }
 
     }

@@ -119,4 +119,14 @@
         android:layout_marginTop="50dp"
         android:text="Submit"
         />
+
+    <Button
+        android:id="@+id/go_to_all_persons"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:text="All Persons"
+        />
 </androidx.appcompat.widget.LinearLayoutCompat>
