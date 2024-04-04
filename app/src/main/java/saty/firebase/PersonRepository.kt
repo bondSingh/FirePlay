@@ -1,7 +1,7 @@
 package saty.firebase
 
 class PersonRepository (private val apiService: PersonApiService) {
-    suspend fun getRecipes(): List<Person> {
+    suspend fun getPersons(): List<Person> {
         return apiService.getRecipes()
     }
 }

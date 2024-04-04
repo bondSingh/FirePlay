@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         fireStore = FirebaseFirestore.getInstance()
 
-        var person  = Person()
+        val person  = Person()
         binding.submit.setOnClickListener {
             person.name = binding.name.text.toString()
             person.age = binding.age.text.toString().toInt()
@@ -41,6 +41,11 @@ class MainActivity : AppCompatActivity() {
 
 
         }
+
+
+      println("value of error" +Status.valueOf("ERROR"))
+      println("value of array" +Status.values())
+
 
         binding.goToAllPersons.setOnClickListener {
             startActivity(Intent(this, AllPersons::class.java))
